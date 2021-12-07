@@ -1,0 +1,19 @@
+{
+  "name": "auto-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "upgrade:main": "node ./index.js main",
+    "upgrade:feature": "node ./index.js feature",
+    "upgrade:bugfix": "node ./index.js bugfix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-git": "^1.10.1",
+    "log4js": "^6.3.0"
+  }
+}
